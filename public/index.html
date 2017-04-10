@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition  v 1.16
+     
+
+      Individual Project Template
+
+      Author: Tessa Williams  
+      Date:   February 12 2017
+
+      Filename: index.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+   <title>Individual Student Project Template 1</title>
+   <link rel="stylesheet"  href="project.css" />
+   <link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet" type="text/css"> 
+  <!-- changed the styled font to something that I preffered -->
+</head>
+
+<body>
+      <header>
+         <h5>
+             Welcome to Tessa's first website made from her INFO 301 class!
+           <!-- added a heading to the top of each page to be more branded-->
+
+         </h5>
+      </header>
+
+	 <!--
+      The nav section (below) contains and unordered list <ul>.
+      Each individual page is listed as a separate line item <li>.
+      Note that the first two line items have been given a unique ID attribute value and an "href"
+      which is a hypertext reference.  You will need to create two additional .htm files and references 
+      for the other tabs to work.   
+	-->  
+	  <nav>
+ 
+	    <ul>
+                   <!-- fixed the issue of clicking back and forth between tabs and not successfully load-->
+            <li id="currentpage"><a href="index.html">Home</a></li>
+            <li><a href="spw.html">Sour Patch Watermelon</a></li>
+            <li><a href="twizzlers.html">Twizzlers</a></li>
+            <li><a href="dots.html">Dots</a></li>   
+            <li><a href="sendcandy.html">Send Candy</a></li>
+
+		</ul>
+      </nav>
+ 	 <!--
+      The heading and paragraph tags below are "placeholders for your own content".
+	-->         
+      <article>
+         <h2>Tessa's Favorite Candy 
+            </h2>
+        <img src="https://cdn.gomix.com/d3facac9-f19e-4fc1-ac72-3a57268dbc13%2Fcandy%20clipart.jpg" alt="Dots candy box" title="Dots candy" align="middle" style="width:350px;height:265px;"/> 
+        <br>
+        <p>In these few articles, you will discover the few candies that are my favorites and absolute go-to's. Whether I'm stress eating or just want a sweet treat, I often find myself reaching for Sour Patch Watermelon, Twizzlers, and Dots. 
+            </p>
+        <p>Though they are all fruit flavored candies and often get stuck in people's teeth, it doesn't stop me from enjoying them on a fairly regular basis. I will also include other ways to enjoy these candies rather than just eating them plain.
+            </p>
+        <p>Feeling generous? Click <a href="https://fir-elk.gomix.me/sendcandy.html"> here </a>if you would like to send Tessa some of her favorite candy today!
+        </p>
+        <br>
+        <br>
+        <h2> Side Note on: Web security
+          </h2>
+        <p>
+          Within the Navigator object (the child of the Window object of all the documents that have been opened during the current web browser session)
+          one can get information about their current browser. Different browsers support different methoods and properties of this Navigation object
+          that cannot be used with others. Different properties of the Navigator object can be seen below
+        </p>
+      
+    <br>
+  <table>
+    <tr>
+     <th>Properties</th>
+     <th>Description</th>
+      </tr>
+      <tr>
+     <td>appName</td>
+     <td>Name of the web broswer displaying the page</td>
+      </tr>
+      <tr>
+     <td>geoLocation</td>
+     <td>API for accessing the user's current location and user permission settings denying or allowing access to that information</td>
+      </tr>
+          <tr>
+     <td>onLine</td>
+     <td>Whether the browser currently has a network conection</td>
+      </tr>
+          <tr>
+     <td>platform</td>
+     <td>Operating system in use on the client computer</td>
+      </tr>
+          <tr>
+     <td>userAgent</td>
+     <td>String stored in the HTTP user-agent request header, which contains information about the browser, the platform name, and compatibility</td>
+      </tr>
+  </table>
+        <br>
+    <p> With there being differences in the Navigator object, there are also differences within the Screen object, graphics, resolution, and color depth can vary dramatically. 
+      Some screens may provide a vast space, sometimes making sizing challenging while others are very limiting with 
+      limited resolution. The Screen object is used to obtain informaitonabout the dislay screen's size,
+      resolution, and color depth. The table below illustrates the properties of the Screen object.
+        </p>
+        <br>
+    <table>
+    <tr>
+     <th>Properties</th>
+     <th>Description</th>
+      </tr>
+      <tr>
+     <td>availHeight</td>
+     <td>Height of the dispay screen, not incuding operating system features such as the Windows taskbar</td>
+      </tr>
+      <tr>
+     <td>availWidth</td>
+     <td>Width of the display screen, not including operating system features such as the Windows taskbar</td>
+      </tr>
+          <tr>
+     <td>colorDepth</td>
+     <td>Displays screen's bit depth if a color palette is in use; if a color palette is not in use, returns the value of the pixelDepth property</td>
+      </tr>
+          <tr>
+     <td>pixelDepth</td>
+     <td>Displays screen's color resolution in bits per pixel</td>
+      </tr>
+          <tr>
+     <td>width</td>
+     <td>Width of the diplsay screen</td>
+      </tr>
+  </table>
+        <br>
+      <p> Still having trouble understanding? Refer to these sites for more information.
+        </p>
+        <br>
+        <p> <a href="https://www.webroot.com/us/en/home/resources/articles/pc-security/online-activities-internet-security"> Webroot - Internet Browsing Safety</a>: 
+          Avoid Spyware with pop-ups, be especially diligent with adult, file sharing, and social media sites, and learn to protect your computer.
+        </p>
+        <p> <a href="https://www.getsafeonline.org/protecting-your-computer/safe-internet-use/"> Get Safe Online - Safe Internet Use</a>: 
+          Learn the risks like phishing and fraud, learn to use your instincts to be safe, understand differences between secure sites and insecure sites, 
+          gather understanding of cookies, and know what to do when encountering illegal material.
+        </p>
+        <p> <a href="http://www.techrepublic.com/article/how-to-safely-access-and-navigate-the-dark-web/"> TechRepublic - How to Safely Access and Navigate the Dark Web:</a> 
+          Within the Web lies the Dark Web thats filled with black markets, stolen credit, hackers, and traffickers. In 5 steps you'll learn how to effectively use the Web in
+           a safe way.
+        </p>
+        </article>
+      <footer>
+        <p> <a href="https://www.linkedin.com/in/tessa-williams-888a73117"> Tessa Williams</a> on LinkedIn &bull; <a href="salisbury.edu"> Salisbury University </a>
+           </p>
+      </footer>
+</body>
+</html>
