@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition  v 1.16
+     
+
+      Individual Project Template
+
+      Author: Tessa Williams  
+      Date:   February 12 2017
+
+      Filename: index.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+   <title>Individual Student Project Template 1</title>
+   <link rel="stylesheet"  href="project.css" />
+   <link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet" type="text/css"> 
+  <!-- changed the styled font to something that I preferred -->
+</head>
+
+<body>
+      <header>
+         <h5>
+             Welcome to Tessa's first website made from her INFO 301 class!
+           <!-- added a heading to the top of each page to be more branded-->
+
+         </h5>
+      </header>
+
+	 <!--
+      The nav section (below) contains and unordered list <ul>.
+      Each individual page is listed as a separate line item <li>.
+      Note that the first two line items have been given a unique ID attribute value and an "href"
+      which is a hypertext reference.  You will need to create two additional .htm files and references 
+      for the other tabs to work.   
+	-->  
+	  <nav>
+ 
+	    <ul>
+                   <!-- fixed the issue of clicking back and forth between tabs and not successfully load-->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="spw.html">Sour Patch Watermelon</a></li>
+            <li><a href="twizzlers.html">Twizzlers</a></li>
+            <li><a href="dots.html">Dots</a></li>
+            <li id="currentpage"><a href="sendcandy.html">Send Candy</a></li> 
+		</ul>
+      </nav>
+ 	 <!--
+      The heading and paragraph tags below are "placeholders for your own content".
+	-->         
+      <article>
+         <h2>Would you like to Contact Tessa? 
+            </h2>
+        <p>
+            </p>
+        <p> Please fill out this form thoroughly if you would like to send Tessa her favorite candy.
+            </p>
+        <br>
+
+  <section id= "info">
+    <h3>
+       Submission Information
+    </h3>
+    <br>
+    <form>
+      <fieldset class="text">
+            <label for="fnameinput">
+            First Name
+            <input type="text" id="fnameinput" name="fname" /></label>
+            <label for="lnameinput">
+            Last Name
+            <input type="text" id="lnameinput" name="lname" /></label>
+            <label for="messageinput">
+            Short Message:
+            <input type="text" id="messageinput" name="message" /></label>
+        </fieldset>
+        </form>
+  </section>
+<br>
+        <form>
+          <fieldset class= "check">
+            <input type="checkbox" id="item1" value="4.48" /> 
+               <label for="spw">Sour Patch Watermelon ($4.48)</label> 
+            <br>
+            <input type="checkbox" id="item2" value="3.74" />
+                <label for="twizzlers">Twizzlers ($3.74)</label>
+            <br>
+            <input type="checkbox" id="item3" value="2.54" />
+               <label for="dots">Dots ($2.54)</label>
+            <br>
+          </fieldset>
+           
+      </form>
+     
+<br>
+<br>
+         <input type="button" id="cButton" value= "Calculate Total"/>
+<br>
+<br>
+       <!-- BELOW I WAS HOPING THAT AFTER THE EVENT OF A CLICK ON "CALCULATE TOTAL" THE MESSAGE AND TOTAL DOLLAR AMOUNT WOULD APPEAR 
+            UNFORTUNATELY I WAS NOT ABLE TO DO THIS, NOR CREATE THE CORRECT CCS TO FORMAT THIS TO LOOK NICE AND ALIGNED-->
+        <div>
+          <p id="total">Your order total is $</p>
+        </div> 
+        
+
+<br>
+      <input type="button" id="submit" value="Submit"/>
+      </article>
+  
+<footer>
+        <p> <a href="https://www.linkedin.com/in/tessa-williams-888a73117"> Tessa Williams</a> on LinkedIn &bull; <a href="salisbury.edu"> Salisbury University </a>
+        </p>
+</footer>
+  <script src="sendcandy.js"> </script>
+</body>
+</html>
